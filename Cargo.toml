@@ -1,17 +1,12 @@
+
 [package]
-name = "proc_editor_rs"
+name = "cheatengine-terminal"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-nix = "0.27"
-dialoguer = "0.11"
-regex = "1.10"
-procfs = "0.15"
-colored = "2.1"
-clap = { version = "4.5", features = ["derive"] }
-memmap2 = "0.7"
-log = "0.4"
-env_logger = "0.10"
-chrono = "0.4"
-libc = "0.2"
+libc = "0.2"         
+crossterm = "0.27"  
+rayon = "1.10"      
+clap = { version = "4.4", features = ["derive"] }  
+bytemuck = "1.14"   
