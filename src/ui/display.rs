@@ -19,8 +19,9 @@ pub fn print_header() {
         .execute(SetForegroundColor(Color::Cyan))
         .unwrap();
     println!("╔════════════════════════════════════════════════════════════════════════════════╗");
-    println!("║                        CHEATENGINE - LINUX MEMORY TOOL                        ║");
-    println!("║                      Root Shell Memory Manipulator                            ║");
+    println!("║                        ANDROID PROC MODIFIER - ANDROID MEMORY TOOL             ║");
+    println!("║                        Root Shell App Memory Manipulator                       ║");
+    println!("║                        MADE BY ALFAPSH                                         ║");
     println!("╚════════════════════════════════════════════════════════════════════════════════╝");
     stdout()
         .execute(ResetColor)
