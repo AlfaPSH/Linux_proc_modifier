@@ -4,7 +4,6 @@ use crate::types::SearchFilter;
 use std::fs::{File, OpenOptions};
 use std::io::{Read, Write, Seek, SeekFrom};
 use std::error::Error;
-use libc;
 
 
 #[derive(Debug)]
@@ -124,6 +123,3 @@ impl ProcessMemory {
     }
 }
 
-pub fn is_root() -> bool {
-    unsafe { libc::geteuid() == 0 }
-}
